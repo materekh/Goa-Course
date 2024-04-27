@@ -1,0 +1,8 @@
+body{
+    background-image: url("bg.webp");
+    background-size: cover;
+}
+#rocket{
+    transform: rotate(15deg);
+    position: absolute;
+}

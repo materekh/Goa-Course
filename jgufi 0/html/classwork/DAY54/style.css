@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:rgb(164, 164, 164);
+}
+main{
+    padding: 40px 100px;
+    background-color: white;
+    width:860px;
+    height:550px;
+    border-radius:10px;
+    box-shadow:3px 3px 8px 3px rgba(0, 0, 0, 0.255);
+}
+.center{
+    height:100vh;
+    width:100vw;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+nav{
+    width: 900px;
+    height: 80px;
+    display: flex;
+}
+#title{
+    width: 900px;
+    height: 80px;
+}
+#buttons{
+    text-wrap: nowrap;
+    gap:50px;
+    width: 900px;
+    height: 80px;
+    color:rgb(105, 105, 105);
+    display: flex;
+    justify-content: flex-end;
+}
+#get-started{
+    position: relative;
+    top:-10px;
+    padding-top: 10px;
+    background-color: blue;
+    width:150px;
+    text-align: center;
+    height:30px;
+    color:white;
+    border-radius: 20px;
+}
+#sidebar{
+    width: 250px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+#big-text{
+    font-size: 50px;
+    color:rgb(66, 0, 66);
+}
+#button{
+    background-color: blue;
+    padding:10px 20px;
+    text-align: center;
+    color:white;
+    border-radius: 25px;
+}
+#ramdeni-div-unda-ikos{
+    display: flex;
+}
+#main-content{
+    display: flex;
+    justify-content: flex-end;
+    width: 600px;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}

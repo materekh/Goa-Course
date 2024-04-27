@@ -1,0 +1,13 @@
+h2,h3,h1{
+    display: flex;
+    justify-content: center;
+}
+input{
+    position: relative;
+    top:-10px;
+    left:680px;
+}
+button{
+    position: relative;
+    left:700px;   
+}

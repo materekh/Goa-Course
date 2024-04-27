@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+h1{
+    font-size: 45px;
+    text-align: center;
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+}
+p{
+    font-size: 30px;
+}
+body{
+    color: white;
+    background-color: #222;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-bottom: 10px;
+    transition-duration: 0.2s;
+}
+main{
+    margin-top: 90px;
+    animation: appear 0.5s;
+}
+nav{
+    width: 100%;
+    position: fixed;
+    font-size: 18px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap:20px;
+    height: 70px;
+    background-color:rgb(7, 80, 0);
+    box-shadow: -5px -5px 5px rgba(0, 0, 0, 0.54) inset;
+    user-select: none;
+}
+nav div{
+    font-size: 18px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap:20px;
+}
+nav div a{
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 20px;
+    /* border: 1px solid black; */
+    color:inherit;
+    transition-duration: 0.2s;
+    /* box-shadow: 1px 1px 2px black; */
+}
+nav div a:hover{
+    text-decoration: underline;
+}
+nav div a:active{
+    transform: translate(0px,1px);
+    box-shadow: none;
+}
+nav div i{
+    font-size: 30px;
+    cursor: pointer;
+}
+nav p{
+    font-size: 40px;
+}
+@keyframes appear{
+    from{
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    to{
+        transform: translateY(0px);
+        opacity: 1;       
+    }
+}
+@media only screen and (max-width: 900px){
+    nav{
+        position: static;
+        flex-direction: column;
+        height: 250px;
+        text-align: center;
+        padding: 0px; 
+        gap: 0px;
+    }
+    nav div{
+        padding: 0px;
+        flex-wrap: wrap;
+    }
+    nav div i{
+        font-size: 60px;
+        position: relative;
+        top:-10px;  
+    }
+    nav p{
+        font-size: 60px;
+    }
+    main{
+        margin-top: 10px;
+    }
+}
+@media only screen and (max-width: 350px){
+    nav div a{
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width: 300px){
+    nav p{
+        font-size: 45px;
+    }
+}

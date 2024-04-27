@@ -1,0 +1,144 @@
+body{
+    margin:0px;
+    padding:0px;   
+    text-shadow:0px 0px 1px; 
+    background-color: black;
+    color:rgb(231, 231, 231);
+}
+h1{
+    font-size:27px;
+}
+.abs{
+    display:inline;
+    position:absolute;
+}
+/* about page container */
+#about{
+    position: relative;
+    margin:0px 0px 0px 0px;
+    padding:0px;
+    height: 775px;
+    background-color: #00235d;
+    color:white;
+    box-shadow: inset 0px 0px 10px rgb(0, 19, 19);
+}
+#aboutme{
+    font-size:100px;
+    top:-50px;  
+    text-shadow:1px 1px 5px black;
+}
+/* social buttons */
+#discord{
+    position:absolute;
+    width:50px;
+    top:40px;
+    right:40px;
+    border-radius:10px;
+}
+#discord:hover{
+    box-shadow:0px 0px 10px rgb(52, 52, 148);
+    top:39px;
+}
+#yt{
+    position:absolute;
+    width:50px;
+    top:40px;
+    right:130px;
+    border-radius:10px;
+}
+#yt:hover{
+    box-shadow:0px 0px 10px red;
+    top:39px;
+}
+/* my pictures */
+#pic{
+    top:150px;
+    width:200px;
+    left:10px;
+    border-radius:5px;
+}
+#pic:hover{
+    background-color: rgb(2, 185, 2);
+    transition-duration: 0.2s;
+    box-shadow: 0px 0px 10px rgb(2, 110, 2);
+    top:140px;
+}
+#welcome{
+    font-size:100px;
+    left:250px;
+    top: 90px;
+}
+#name{
+    color:#65B741;
+}
+/* skill selectors */
+#skills{
+    top:300px;
+    left:635px;
+    font-size:60px;
+}
+.skill{
+    top:450px;
+    font-size:30px;
+    cursor: pointer;
+}
+.skill:hover{
+    color:rgb(216, 216, 216);
+}
+#skill1{
+    left:150px;
+}
+#skill2{
+    left:600px;
+}
+#skill3{
+    right:250px;
+}
+#sktxt{
+    top:500px;
+    left:50px;
+    font-size:25px; 
+}
+#sktxt1{
+    top:500px;
+    left:50px;
+    font-size:25px; 
+}
+#sktxt2{
+    top:500px;
+    left:50px;
+    font-size:25px; 
+}
+#sktxt3{
+    top:500px;
+    left:50px;
+    font-size:25px; 
+}
+/* contact page */
+#contact{
+    position:relative; 
+    margin:0px;
+    padding:0px;
+    height: 775px;
+    background-color: rgb(185, 96, 0);
+    color:white;
+    box-shadow: inset 0px 0px 10px rgb(160, 89, 1);
+}
+#conttxt{
+    font-size:100px;
+    left:200px;
+    text-shadow:1px 1px 5px black;
+}
+.inp{
+    margin:10px;
+    font-size:30px;
+    position:relative;
+    top:300px;
+    left:400px;
+    width:700px;
+    height:50px;
+    border:1px solid;
+    border-radius:5px;
+    box-shadow:5px 5px 10px;
+    background-color: #d1d1d1;
+}

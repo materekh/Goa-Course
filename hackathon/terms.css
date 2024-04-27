@@ -1,0 +1,37 @@
+.nolindent{
+    font-weight: bold;
+    font-size: 32px;
+    margin-left: 10px;
+}
+.oneindent{
+    font-size: 28px;
+    margin-left: 50px;
+}
+.twoindent{
+    font-size: 23px;
+    margin-left: 90px;
+}
+.thrindent{
+    font-size: 20px;
+    margin-left: 130px;
+}
+@media only screen and (max-width: 500px){
+    h1{
+        font-size: 25px;
+    }
+    .nolindent{
+        font-size: 26px;
+    }
+    .oneindent{
+        font-size: 23px;
+        margin-left: 30px;
+    }
+    .twoindent{
+        font-size: 21px;
+        margin-left: 50px;
+    }
+    .thrindent{
+        font-size: 18px;
+        margin-left: 70px;
+    }   
+}

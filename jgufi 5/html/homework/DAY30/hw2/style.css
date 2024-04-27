@@ -1,0 +1,40 @@
+*{
+    font-size:12px;
+}
+body{
+    margin:0px;
+    padding:0px;
+}
+input[type=text],input[type=email],textarea,input[type=number],input[type=date],input[type=password]{
+    position:absolute;
+    left:200px;
+    width:800px;
+    height:30px;
+    border-radius: 5px;
+}
+select,input[type=checkbox]{
+    position:absolute;
+    left:200px;
+}
+textarea{
+    height: 180px;
+}
+label[for=fsp],label[for=ssp],label[for=tsp],label[for=fosp]{
+    position:absolute;
+    left:220px;    
+}
+form{
+    padding:0px 5px;
+    background-color:rgba(242,242,242,255);
+}
+input[type=radio],label[for=male],label[for=female],label[for=wb],label[for=cr],label[for=atth]{
+    position: relative;
+    left:150px;
+}
+button{
+    background-color: #4caf50;
+    border:0px;
+    width: 100px;
+    height: 50px;
+    border-radius: 8px;
+}

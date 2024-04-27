@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>portfolio</title>
+        <link rel="stylesheet" href="./style.css">
+        <script src="./script.js" defer></script>
+    </head>
+    <body>
+        <!--about page-->
+        <div id="about">
+            <img class="abs" id="pic" src="./channels4_profile (1).jpg" alt="insert mate picture">
+            <p class="abs" id="welcome" style="display:inline;">Hi! I'm <span id="name">Mate Rekhviashvili</span></p>
+            <h1 class="abs" id="aboutme">About me</h1>
+            <a href="https://discord.gg/dapFSQCekS" target="_blank"><img id="discord" src="/html/portfolio/pictures/5b24e49fd89287ff1eb5bbc4cf93cb038c3384ef-512x512.png"></a>
+            <a href="https://www.youtube.com/channel/UCG71HVnA1yX4IdF3TpAscUw" target="_blank"><img id="yt" src="/html/portfolio/pictures/youtube-logo-youtube-icon-transparent-free-png.webp"></a>
+            <p class="abs" id="skills">My skills:</p>
+            <p class="skill abs" id="skill1" onclick="changeActive(1)">Web development</p>
+            <p class="skill abs" id="skill2" onclick="changeActive(2)">Competitive progrmming</p>
+            <p class="skill abs" id="skill3" onclick="changeActive(3)">Chess</p>
+            <p class="abs" id="sktxt1">i started web development 1 month ago.</p>
+            <p class="abs" id="sktxt2">i started learning programming 4 years ago.</p>
+            <p class="abs" id="sktxt3">i used to play chess for 4 years.</p>
+        </div>
+        <!--contact form-->
+        <form id="contact">
+            <h1 class="abs" id="conttxt">Contact Me(Does nothing)</h1>
+            <input id="inp1" class="inp" type="text" placeholder="Name" required><br>
+            <input id="inp2" class="inp" type="text" placeholder="Last name" required><br>
+            <input id="inp3" class="inp" type="email" placeholder="email" required><br>
+            <button id="inp4" class="inp">submit</button>
+        </form>
+    </body>
+</html>
